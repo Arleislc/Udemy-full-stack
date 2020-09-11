@@ -1,0 +1,47 @@
+body{
+    background: #d2d2e1 url("../img/fundo.png");
+    margin: 0px 15px 15px 15px;
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 900px;
+}
+
+.centralize{
+    text-align: center;
+}
+
+h1{
+    color: #828271;
+    font-size: 1.2em;
+}
+
+.content{
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+
+.menu-bar{
+    background-color: #c5c5b2;
+    padding: 18px;
+    align-content: center;  
+    margin: 5px 0px;
+}
+.menu-button{
+    display: inline; 
+    padding: 5px;
+    font-weight: bold;
+}
+
+.menu-button a{
+    color: #4b566a;
+    text-decoration: none;
+}
+
+
+
+footer{
+    align-items: center;
+}
