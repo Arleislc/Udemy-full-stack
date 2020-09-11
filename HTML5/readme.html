@@ -1,0 +1,174 @@
+<!-- Aprendendo sobre HTML -->
+
+<!-- -A estrutura basica de uma página HTML compreende -->
+	<!-- doctype html indica que estamos usando um documento HTML5 -->
+	<!doctype html> 
+	<html> 
+		<head>
+		</head>
+		<body>
+		</body>
+	</html>
+<!-- Quebras de linha -->
+Texto na primeira linha <br> Texto na segunda linha após utilizar a tag br
+
+<!-- Cabeçalhos -->
+		<!-- exitem as tags h1 até h6 e por padrão criam uma quebra de linha -->
+		<!-- essas tags deixam o texto já formatado para destaque -->
+		<h1>Texto h1</h1>
+		<h2>Texto h2</h2>
+		<h3>Texto h3</h3>
+		<h4>Texto h4</h4>
+		<h5>Texto h5</h5>
+		<h6>Texto h6</h6>
+
+<!-- -Paragrafos -->
+	<!-- Usar a tag <p></p> -->
+<p>Este é meu paragrafo</p>
+
+<!-- -Formatação de texto -->
+	<!-- Negrito: <b></b> ou <strong></strong>(recomendo) -->
+	<p><b>Texto em negrito usando a tag b</b></p>
+	<p><strong>Texto em negrito usando a tag strong</strong></p>
+	<!-- Itálico: <i></i> ou <em></em>(recomendado) -->
+	<p><i>Texto em itálico usando a tag i</i></p>
+	<p><em>Texto em itálico usando a tag em</em></p>
+	<!-- Sublinhado: <u></u> -->
+	<p><u>Testo sublinhado usando a tag u</u></p>
+	<!-- Taxado: <strike></strike> -->
+	<p><strike>Texto taxado usando a tag strike</strike></p>
+<!-- -Listas -->
+		<h1>Listas</h1>
+	<!--Temos as listas não ordendas(<ul>) e as listas ordendas (<ol>)-->
+	<!--Os itens dentro de ambos os tipos serão identificados pela tag <li> (list item)  -->
+	<!-- -Lista não ordenada (unordered lists) -->
+	<h2>Listas Não ordendas</h2>
+	<!-- A tag <ul> aceita a propriedade "type" que troca o tipo do marcador. As opções de type são: circle, square e disc-->
+		<!-- Default -->
+		<h3>Default</h3>
+		<ul> 
+			<li>ex1</li>
+			<li>ex2</li>
+		</ul>
+		<!-- Circle -->
+		<h3>Circle</h3>
+		<ul type="circle"> 
+			<li>ex1</li>
+			<li>ex2</li>
+		</ul>
+		<!-- Square -->
+		<h3>Square</h3>
+		<ul type="square"> 
+			<li>ex1</li>
+			<li>ex2</li>
+		</ul>
+		<!-- Disc(default) -->
+		<h3>Disc</h3>
+		<ul type="disc"> 
+			<li>ex1</li>
+			<li>ex2</li>
+		</ul>
+	<!-- Listas ordendas -->
+	<h2>Listas Ordenadas</h2>
+	<!-- A tag <ol> aceita a propriedade "type" que troca o tipo de marcador. As opções de type são: 1, A, a, I, i-->
+		<!-- Default -->
+		<h3>Default</h3>
+		<ol>
+			<li>Comida favorita?</li>
+			<li>Carro favorito?</li>
+			<li>Série favorita?</li>
+		</ol>
+		<!-- 1 -->
+		<h3>1 (númerico)</h3>
+		<ol type="1">
+			<li>Comida favorita?</li>
+			<li>Carro favorito?</li>
+			<li>Série favorita?</li>
+		</ol>
+		<!-- A -->
+		<h3>A (alfabético maiúsculo)</h3>
+		<ol type="A">
+			<li>Comida favorita?</li>
+			<li>Carro favorito?</li>
+			<li>Série favorita?</li>
+		</ol>
+		<!-- a -->
+		<h3>a (alfabético minpusculo)</h3>
+		<ol type="a">
+			<li>Comida favorita?</li>
+			<li>Carro favorito?</li>
+			<li>Série favorita?</li>
+		</ol>
+		<!-- I -->
+		<h3>I (algarismos romanos maiúsculos)</h3>
+		<ol type="I">
+			<li>Comida favorita?</li>
+			<li>Carro favorito?</li>
+			<li>Série favorita?</li>
+		</ol>
+		<!-- i -->
+		<h3>i (algarismos romanos minúsculos)</h3>
+		<ol type="i">
+			<li>Comida favorita?</li>
+			<li>Carro favorito?</li>
+			<li>Série favorita?</li>
+		</ol>
+<!-- Imagens -->
+<!-- Para inserir uma imagem utilizamos a tag <img src="/minhaIMagem.jpg"> 
+	 A propriedade "src" para informar qual é o caminho da imagem que queremos utilizas
+	 Podemos utilizar as propriedades "width"(largura) e "height"(altura) para redimensionar a imagem
+	 Se utilizarmos apenas umas das duas propriedades de redimensionamento o crescimento vai ser proporcional
+	 Se utilizarmos as duas propriedades o navegador irá obedecer os 2 comandos e pode ficar despropocional-->
+<h1>Imagens</h1>
+<h2>Imagem sem redimensionamento</h2>
+	 <img src="https://images.unsplash.com/photo-1599423256402-939fc3e8112d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80" alt="relógio">
+<h2>Imagem redimensionada</h2>
+<img height="50" src="https://images.unsplash.com/photo-1599423256402-939fc3e8112d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80" alt="relógio">
+<img height="50" width="150" src="https://images.unsplash.com/photo-1599423256402-939fc3e8112d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80" alt="relógio">
+
+<!-- Tabelas -->
+<h3>Tabelas</h3>
+
+<!-- As tabelas são definidas pela tag <table> 
+	 Podemos passar as propriedades 
+		 border customizar a espessura das linhas
+		 e width para customizar o tamho da tabela
+	 Precisamos montar sua estrutura utilizando as tags 
+	<th> para a linha de cabeçalho
+	<tr> para indicar as linhas
+	<td> para as colunas dentro das linhas
+		podemos passar o rowspan para ocupar mais de uma linha
+		podemos passar o colspan para ocupar mais de uma coluna 
+	as "células" da tabela aceitam que utilizemos outros tipos de elementos, como imagens, links, etc 
+-->
+
+<h2>Minha tabela de exemplo</h2>
+<table border="2">
+	<tr>
+		<th>Código</th>
+		<th>Produto</th>
+		<th>Preço</th>
+	</tr>
+	<tr>
+		<td>001</td>
+		<td>Notebook</td>
+		<td>R$ 2.500,00</td>
+	</tr>
+	<tr>
+		<td>002</td>
+		<td>Tablet</td>
+		<td>R$ 1.300,00</td>
+	</tr>
+	<tr>
+		<td rowspan="2">Desconto</td>
+		<td colspan ="2">cupom 1 -R$ 10,00</td>
+	</tr>
+	<tr>
+		<td colspan= "2">cupom 2 -R$ 15,00</td>
+	</tr>
+	<tr>
+		<td> <strong>Total:</strong> </td>
+		<td colspan="2"> <strong>R$ 3.775,00</strong></td>
+	</tr>
+</table>
+
