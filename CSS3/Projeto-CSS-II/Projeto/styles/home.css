@@ -1,0 +1,118 @@
+* {
+  margin: 0px;
+  padding: opx;
+}
+
+body{
+  font-size: 1em;
+  font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+  background: #e6e6e6
+}
+header{
+  background: #fc0;
+}
+
+main {
+  width: 920px;
+  margin: auto;
+  background-color: white;
+  padding: 15px;
+}
+
+footer{
+  height: 100px;
+  width: 920px;
+  margin: 0px auto;
+  padding: 15px;
+  background: #ccc;
+  color: #333;
+  text-align: center;
+}
+
+main a{
+  color:  #fc0;
+  text-decoration: none;
+}
+
+main a:hover{
+  text-decoration: underline;
+}
+
+#logo{
+  font: 50px Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 15px;
+}
+
+#logo .part1{
+  color: #666;
+}
+
+#logo .part2{
+  color:#eee;
+}
+
+#menu{
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+#menu a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+#menu a:hover{
+  color: #fc0;
+  background-color: #fff;
+}
+
+#area-postagem{
+  width: 660px;
+  float: left;
+}
+
+#post h1{ 
+  color: #fc0;
+  display: block;
+  margin: 15px 0px 0px;
+}
+
+#post span{
+  display: block;
+  font-size: 14px;
+  margin: 0px 0px 10px;
+}
+
+#post img {
+  max-width: 620px;
+}
+
+#lateral-bar {
+  float: right;
+  width: 240px;
+}
+
+#lateral-bar p {
+  font-size: 14px;
+  margin: 0px;
+}
+#lateral-bar h3 {
+  font-size: 16px;
+  background: #bbb;
+  color: #444;
+  margin-top: 15px;
+  padding-left: 5px;
+}
+
+#lateral-bar a{
+  padding: 2px;
+  font-size: 14px;
+  display: block;
+}
+
+.clear{
+  clear: both;
+}
