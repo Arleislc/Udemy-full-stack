@@ -1,0 +1,43 @@
+ul>li{
+  width: 120px;
+  list-style: none;
+  padding: 5px;
+  text-indent: 15px;
+  margin: 1px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+ul>li>a{
+  text-decoration: none;
+  color: rgb(65, 62, 62);
+}
+
+ul.vertical li:hover{
+  background-color: rgb(255, 196, 0);
+}
+
+ul.vertical li{
+  background-color: rgb(255, 217, 0);
+}
+
+ul.vertical li:hover{
+  background-color: rgb(255, 196, 0);
+}
+
+ul.horizontal li{
+  background-color: rgb(0, 183, 255);
+}
+
+ul.horizontal li:hover{
+  
+  background-color: rgb(7, 101, 189);
+}
+
+ul.horizontal>li>a:hover{
+  color: whitesmoke;;
+}
+
+ul.nav.horizontal>li{
+  float: left;
+}
